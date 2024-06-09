@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #player-field,
+  #computer-field {
+    width: 40%;
+    margin: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light-theme {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dark-theme td {
+    border-color: #666;
+  }
+  
+  .light-theme td {
+    border-color: #ccc;
+  }
+  

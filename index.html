@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Морской Бой</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Морской Бой</h1>
+      <button id="new-game-btn">Новая игра</button>
+      <button id="pause-btn">Пауза</button>
+      <button id="stop-btn">Стоп</button>
+      <select id="theme-select">
+        <option value="dark">Тёмная тема</option>
+        <option value="light">Светлая тема</option>
+      </select>
+    </header>
+    <main>
+      <div id="player-field">
+        <h2>Ваше поле</h2>
+        <table id="player-table"></table>
+      </div>
+      <div id="computer-field">
+        <h2>Поле компьютера</h2>
+        <table id="computer-table"></table>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
